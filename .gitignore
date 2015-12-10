@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Tehtavat/K2362_T1b/bin/Debug
+/Tehtavat/K2362_T1b/obj/Debug
+/.vs/IIO13200-OHJELMOINTIKOE/v14/.suo

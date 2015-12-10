@@ -25,9 +25,9 @@ namespace K2362_T2WPF
     {
 
         // Debug xml
-        private string fileUrl = "../../Countries.xml";
+        //private string fileUrl = "../../Countries.xml";
         // Real XML
-        //private string fileUrl = ConfigurationSettings.AppSettings["MaatTiedosto"] ?? "Not Found";
+        private string fileUrl = ConfigurationSettings.AppSettings["MaatTiedosto"] ?? "N";
         // ? XML
         //private string fileUrl = ConfigurationManager.AppSettings["MaatTiedosto"] ?? "Not Found";
 
@@ -40,7 +40,7 @@ namespace K2362_T2WPF
 
             if (fileUrl.Length < 2)
             {
-                MessageBox.Show("URL to file is not valid! \nClosing program.");
+                MessageBox.Show("URL to xml file is not valid! \nClosing program.");
                 System.Environment.Exit(2);
 
             }

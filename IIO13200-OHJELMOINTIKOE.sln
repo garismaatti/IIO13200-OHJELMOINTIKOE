@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2362_T1b", "Tehtavat\K2362
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2362_T2WPF", "Tehtavat\K2362_T2WPF\K2362_T2WPF.csproj", "{968CF9F5-F30D-449D-93F1-1AB5A4E27CFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2362_T3c", "Tehtavat\K2362_T3c\K2362_T3c.csproj", "{675968C2-32B0-4773-AB86-145EF9461AD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{968CF9F5-F30D-449D-93F1-1AB5A4E27CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968CF9F5-F30D-449D-93F1-1AB5A4E27CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{968CF9F5-F30D-449D-93F1-1AB5A4E27CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675968C2-32B0-4773-AB86-145EF9461AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675968C2-32B0-4773-AB86-145EF9461AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675968C2-32B0-4773-AB86-145EF9461AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675968C2-32B0-4773-AB86-145EF9461AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

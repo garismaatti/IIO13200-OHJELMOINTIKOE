@@ -7,7 +7,7 @@ Arviopisteet tehtävistä:
 Oikea hakemistorakenne: max 3
 Tehtävä 1: max 10 oma 10
 Tehtävä 2: max 12 oma 5
-Tehtävä 3: max 15 oma 0
+Tehtävä 3: max 15 oma 1
 
 Palauttamisen jälkeen käy vielä tekemässä Socrative-kysely.
 Onnea ja menestystä kokeeseen.

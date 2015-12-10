@@ -1,0 +1,27 @@
+﻿<Window x:Class="K2362_T2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:K2362_T2WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="443.959" Width="646.365">
+    <Grid>
+        <Grid.Resources>
+            <XmlDataProvider x:Key="vdataa" Source="http://student.labranet.jamk.fi/~salesa/iio11300/mat/Countries.xml" XPath="DATA/ROW">
+            </XmlDataProvider>
+        </Grid.Resources>
+        <Button x:Name="btnGetData" Content="Get contry's" HorizontalAlignment="Left" Margin="148,22,0,0" VerticalAlignment="Top" Width="172" Click="btnGetData_Click" />
+        <ComboBox x:Name="cbFiltter" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Width="133" SelectionChanged="cbFiltter_SelectionChanged_1" />
+        <Label x:Name="lbInfo" Content="Label" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFFFDC00" Width="455"/>
+        <DataGrid x:Name="dgView" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="334" Width="461"/>
+        <Button x:Name="btnCount" Content="Count" HorizontalAlignment="Left" Margin="553,151,0,0" VerticalAlignment="Top" Width="75" Click="btnCount_Click"/>
+        <Label x:Name="lbCount" Content="Country count: " HorizontalAlignment="Left" Margin="476,120,0,0" VerticalAlignment="Top" Width="152"/>
+        <Button x:Name="btnTopPopulated" Content="Top 10 Populated country's" HorizontalAlignment="Left" Margin="476,271,0,0" VerticalAlignment="Top" Width="152" IsEnabled="False"/>
+        <Label x:Name="lbPopulation" Content="Population total: " HorizontalAlignment="Left" Margin="476,187,0,0" VerticalAlignment="Top" Width="152"/>
+        <Button x:Name="btnCountPolulation" Content="Count" HorizontalAlignment="Left" Margin="553,213,0,0" VerticalAlignment="Top" Width="75" Click="btnCountPolulation_Click"/>
+        <Button x:Name="btnTopBigest" Content="Top 10 Bigest country's" HorizontalAlignment="Left" Margin="476,298,0,0" VerticalAlignment="Top" Width="152" IsEnabled="False"/>
+        <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="23" Margin="492,21,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="536,52,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False"/>
+    </Grid>
+</Window>

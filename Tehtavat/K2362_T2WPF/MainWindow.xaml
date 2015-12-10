@@ -21,7 +21,7 @@
         <Label x:Name="lbPopulation" Content="Population total: " HorizontalAlignment="Left" Margin="476,187,0,0" VerticalAlignment="Top" Width="152"/>
         <Button x:Name="btnCountPolulation" Content="Count" HorizontalAlignment="Left" Margin="553,213,0,0" VerticalAlignment="Top" Width="75" Click="btnCountPolulation_Click"/>
         <Button x:Name="btnTopBigest" Content="Top 10 Bigest country's" HorizontalAlignment="Left" Margin="476,298,0,0" VerticalAlignment="Top" Width="152" IsEnabled="False"/>
-        <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="23" Margin="492,21,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="536,52,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False"/>
+        <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="23" Margin="492,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="536,52,0,0" VerticalAlignment="Top" Width="75" Click="btnSearch_Click"/>
     </Grid>
 </Window>

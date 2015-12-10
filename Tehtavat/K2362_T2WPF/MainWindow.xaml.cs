@@ -201,5 +201,16 @@ namespace K2362_T2WPF
         {
             UpdateFiltter();
         }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            DataView dv = new DataView();
+            DataTable dt = basicFiltterig();
+            dv = dt.DefaultView;
+
+            dt.DefaultView.RowFilter = "Name = '" + txtSearch.Text + "'";
+
+            dgView.ItemsSource = dv;
+        }
     }
 }
